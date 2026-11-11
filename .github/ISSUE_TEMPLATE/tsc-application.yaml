@@ -95,7 +95,7 @@ body:
     attributes:
       label: Conflicts of Interest
       description: |
-        Please disclose anything that could prevent you from meeting the [expectations for TSC members](https://github.com/bradcray/chapel-governance/blob/4fba108f489e7c61d44d3a6f0971263f3af7e9d7/GOVERNANCE.md#expectations-for-tsc-members) or that you think we ought to know.
+        Please disclose anything that could prevent you from meeting the [expectations for TSC members](https://github.com/chapel-lang/governance/blob/main/GOVERNANCE.md#expectations-for-tsc-members) or that you think we ought to know.
     validations:
       required: false
 
@@ -103,7 +103,7 @@ body:
     id: expectations
     attributes:
       label: TSC Member Expectations
-      description: By filing this issue, you agree to the [expectations for TSC members](https://github.com/bradcray/chapel-governance/blob/4fba108f489e7c61d44d3a6f0971263f3af7e9d7/GOVERNANCE.md#expectations-for-tsc-members)
+      description: By filing this issue, you agree to the [expectations for TSC members](https://github.com/chapel-lang/governance/blob/main/GOVERNANCE.md#expectations-for-tsc-members)
       options:
         - label: I have reviewed the expectations for TSC members and agree to them
           required: true
