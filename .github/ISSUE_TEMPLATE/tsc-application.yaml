@@ -86,5 +86,5 @@ body:
       options:
         - label: I have reviewed the expectations of TSC members and agree to them
           required: true
-        - label: I understand that TSC meetings currently take place during working hours in the USA
+        - label: I understand that TSC meetings currently take place during U.S. working hours
           required: true
