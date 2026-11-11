@@ -81,7 +81,7 @@ body:
   - type: checkboxes
     id: expectations
     attributes:
-      label: Code of Conduct
+      label: TSC Member Expectations
       description: By filing this issue, you agree to the [expectations of TSC members](https://github.com/chapel-lang/governance/blob/main/GOVERNANCE.md#technical-steering-committee-tsc)
       options:
         - label: I have reviewed the expectations of TSC members and agree to them
