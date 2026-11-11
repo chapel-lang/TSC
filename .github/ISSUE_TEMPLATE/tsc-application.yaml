@@ -4,58 +4,57 @@ title: ""
 labels: ["TSC Application"]
 body:
   - type: input
-  id: name
-  attributes:
-    label: Name
-  validations:
-    required: true
+    id: name
+    attributes:
+      label: Name
+    validations:
+      required: true
 
   - type: input
-  id: github-username
-  attributes:
-    label: GitHub Username
-  validations:
-    required: true
+    id: github-username
+    attributes:
+      label: GitHub Username
+    validations:
+      required: true
 
   - type: textarea
-  id: affiliations
-  attributes:
-    label: Affiliation(s) (e.g., workplace(s), school(s), relevant professional groups)
-  validations:
-    required: true
+    id: affiliations
+    attributes:
+      label: Affiliation(s) (e.g., workplace(s), school(s), relevant professional groups)
+    validations:
+      required: true
 
   - type: textarea
-  id: projects
-  attributes:
-    label: Notable projects/products you have worked on (list names, provide links if available)
-  valiations:
-    required: true
+    id: projects
+    attributes:
+      label: Notable projects/products you have worked on (list names, provide links if available)
+    validations:
+      required: true
 
   - type: textarea
-  id: experience
-  attributes:
-    label: History and experience with the Chapel language, project, and community (please provide a paragraph or two summarizing your past involvement with Chapel)
-  validations:
-    required: true
+    id: experience
+    attributes:
+      label: History and experience with the Chapel language, project, and community (please provide a paragraph or two summarizing your past involvement with Chapel)
+    validations:
+      required: true
 
   - type: textarea
-  id: motivation
-  attributes:
-    label: Motivations for applying to the TSC (please provide a paragraph or two explaining what you hope to bring to the TSC and what you hope to get out of it)
-  validations:
-    required: true
+    id: motivation
+    attributes:
+      label: Motivations for applying to the TSC (please provide a paragraph or two explaining what you hope to bring to the TSC and what you hope to get out of it)
+    validations:
+      required: true
 
   - type: input
-  id: advocate
-  attributes:
-    label: Advocate/Sponsor (Optional — Is there someone on the TSC or in the Chapel community who knows you and is willing to advocate on your behalf?)
-  validations:
-    required: false
+    id: advocate
+    attributes:
+      label: Advocate/Sponsor (Optional — Is there someone on the TSC or in the Chapel community who knows you and is willing to advocate on your behalf?)
+    validations:
+      required: false
 
   - type: input
-  id: conflicts
-  attributes:
-    label: Conflicts of Interest (Please disclose anything that could prevent you from meeting the <a href = "GOVERNANCE.md">expectations for TSC members</a> or that you think we ought to know)
-  validations:
-    required: false
-
+    id: conflicts
+    attributes:
+      label: Conflicts of Interest (Please disclose anything that could prevent you from meeting the <a href = "GOVERNANCE.md">expectations for TSC members</a> or that you think we ought to know)
+    validations:
+      required: false
