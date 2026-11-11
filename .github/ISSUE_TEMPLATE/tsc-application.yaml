@@ -1,6 +1,6 @@
 name: TSC Application
 description: Use this template if you are interested in applying to join the Chapel Technical Steering Committee (TSC)
-title: ""
+title: "[TSC Application]: "
 labels: ["TSC Application"]
 body:
   - type: input
