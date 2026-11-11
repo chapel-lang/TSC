@@ -21,7 +21,7 @@ body:
     id: affiliations
     attributes:
       label: Affiliations
-      description:  |
+      description: |
         List any relevant workplaces, schools, professional groups
     validations:
       required: true
@@ -30,7 +30,7 @@ body:
     id: projects
     attributes:
       label: Notable projects/products
-      description:  |
+      description: |
         List any notable projects or products you have worked on, listing names, and providing links if available.
     validations:
       required: true
@@ -39,7 +39,7 @@ body:
     id: experience
     attributes:
       label: Chapel Experience
-      description:  |
+      description: |
         Provide a paragraph or two indicating your history and experience with the Chapel language, project, and community
     validations:
       required: true
@@ -48,7 +48,7 @@ body:
     id: motivation
     attributes:
       label: Motivations for Applying
-      description:  |
+      description: |
         Provide a paragraph or two indicating your motivations for applying to the TSC, explaining what you hope to bring to the TSC and what you hope to get out of it
     validations:
       required: true
@@ -57,7 +57,7 @@ body:
     id: advocate
     attributes:
       label: Advocate/Sponsor (Optional)
-      description:  |
+      description: |
         Is there someone on the TSC or in the Chapel community who knows you and is willing to advocate on your behalf?
     validations:
       required: false
@@ -66,7 +66,7 @@ body:
     id: conflicts
     attributes:
       label: Conflicts of Interest
+      description: |
         Please disclose anything that could prevent you from meeting the [expectations for TSC members](GOVERNANCE.md) or that you think we ought to know
-      description:  |
     validations:
       required: false
