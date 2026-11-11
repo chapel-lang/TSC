@@ -1,0 +1,35 @@
+name: TSC Meeting Topic
+description: Use this template if you would like to propose a topic to be taken up at a TSC meeting
+title: "[TSC Meeting Topic]: (Short Description Here)"
+labels: ["TSC Meeting Topic"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## TSC Meeting Topic Proposal
+        Use this form to propose a topic for an upcoming TSC meeting.  Please indicate whether your topic can wait until the next regularly scheduled meeting or whether you think it warrants triggering a TSC meeting before then.
+
+  - type: textarea
+    id: topic
+    attributes:
+      label: Proposed Topic
+    validations:
+      required: true
+
+  - type: dropdown
+    id: can-wait
+    attributes:
+      label: Can this topic wait until the next regularly scheduled TSC meeting?
+      options:
+        - "No"
+        - "Yes"
+      default: 1
+    validations:
+      required: true
+
+  - type: textarea
+    id: comments
+    attributes:
+      label: Additional Comments (Optional)
+    validations:
+      required: false
