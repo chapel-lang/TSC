@@ -22,7 +22,7 @@ body:
     attributes:
       label: Affiliations
       description: |
-        List any relevant workplaces, schools, professional groups
+        List any relevant workplaces, schools, and professional groups.
     validations:
       required: true
 
@@ -31,7 +31,7 @@ body:
     attributes:
       label: Notable projects/products
       description: |
-        List any notable projects or products you have worked on, listing names, and providing links if available.
+        List the names of any notable projects or products you have worked on,  providing links if available.
     validations:
       required: true
 
@@ -40,7 +40,7 @@ body:
     attributes:
       label: Chapel Experience
       description: |
-        Provide a paragraph or two indicating your history and experience with the Chapel language, project, and community
+        Provide a paragraph or two indicating your history and experience with the Chapel language, project, and community.
     validations:
       required: true
 
@@ -49,7 +49,7 @@ body:
     attributes:
       label: Motivations for Applying
       description: |
-        Provide a paragraph or two indicating your motivations for applying to the TSC, explaining what you hope to bring to the TSC and what you hope to get out of it
+        Provide a paragraph or two indicating your motivations for applying to the TSC.  Describe what you hope to bring to the TSC and what you hope to get out of it.
     validations:
       required: true
 
@@ -58,7 +58,7 @@ body:
     attributes:
       label: Advocate/Sponsor (Optional)
       description: |
-        Is there someone on the TSC or in the Chapel community who knows you and is willing to advocate on your behalf?
+        Is there someone on the TSC or in the Chapel community who knows you and would be willing to advocate on your behalf?
     validations:
       required: false
 
@@ -67,6 +67,6 @@ body:
     attributes:
       label: Conflicts of Interest
       description: |
-        Please disclose anything that could prevent you from meeting the [expectations for TSC members](GOVERNANCE.md) or that you think we ought to know
+        Please disclose anything that could prevent you from meeting the [expectations for TSC members](https://github.com/chapel-lang/governance/blob/main/GOVERNANCE.md#technical-steering-committee-tsc) or that you think we ought to know.
     validations:
       required: false
