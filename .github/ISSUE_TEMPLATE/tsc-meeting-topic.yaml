@@ -21,8 +21,8 @@ body:
     attributes:
       label: Can this topic wait until the next regularly scheduled TSC meeting?
       options:
-        - No
-        - Yes
+        - "No"
+        - "Yes"
       default: 1
     validations:
       required: true
