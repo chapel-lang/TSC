@@ -17,15 +17,12 @@ body:
     validations:
       required: true
 
-  - type: markdown
-    attributes:
-      value: |
-        List any relevant workplaces, schools, professional groups
-
   - type: textarea
     id: affiliations
     attributes:
       label: Affiliations
+      description:  |
+        List any relevant workplaces, schools, professional groups
     validations:
       required: true
 
