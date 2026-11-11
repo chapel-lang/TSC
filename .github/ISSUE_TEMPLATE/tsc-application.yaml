@@ -6,21 +6,21 @@ body:
   - type: markdown
     attributes:
       value: |
-      ## Valued attributes in TSC candidates
-      The following is a non-exhaustive list of things we will consider and value in a TSC candidate.  Please note that we don't expect applicants to meet all of the following criteria, nor does meeting any of them guarantee acceptance into the TSC.  We will consider applications holistically:
-      * uses of Chapel in applications
-      * contributions to the Chapel community in the form of PRs (code, doc changes)
-      * involvement in Chapel discussions and issues
-      * organizing of, or participation in, Chapel community events (such as ChapelCon)
-      * having publications, blog posts, or social media activity related to Chapel
-      * providing funding to the Chapel project or other Chapel-related development efforts
-      * unique perspectives, strengths, or experiences that you'd bring
-      * other potential benefits to the project
+        ## Valued attributes in TSC candidates
+        The following is a non-exhaustive list of things we will consider and value in a TSC candidate.  Please note that we don't expect applicants to meet all of the following criteria, nor does meeting any of them guarantee acceptance into the TSC.  We will consider applications holistically:
+        * uses of Chapel in applications
+        * contributions to the Chapel community in the form of PRs (code, doc changes)
+        * involvement in Chapel discussions and issues
+        * organizing of, or participation in, Chapel community events (such as ChapelCon)
+        * having publications, blog posts, or social media activity related to Chapel
+        * providing funding to the Chapel project or other Chapel-related development efforts
+        * unique perspectives, strengths, or experiences that you'd bring
+        * other potential benefits to the project
 
   - type: markdown
     attributes:
       value: |
-      ## To apply to the Chapel TSC, please fill out the following application:
+        ## To apply to the Chapel TSC, please fill out the following application:
 
   - type: input
     id: name
