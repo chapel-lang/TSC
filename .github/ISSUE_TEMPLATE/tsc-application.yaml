@@ -20,7 +20,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Please list any relevant workplaces, schools, professional groups
+        List any relevant workplaces, schools, professional groups
 
   - type: textarea
     id: affiliations
@@ -29,37 +29,62 @@ body:
     validations:
       required: true
 
+  - type: markdown
+    attributes:
+      value: |
+        List any notable projects or products you have worked on, listing names, and providing links if available.
+
   - type: textarea
     id: projects
     attributes:
-      label: Notable projects/products you have worked on (list names, provide links if available)
+      label: Notable projects/products
     validations:
       required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        Provide a paragraph or two indicating your history and experience with the Chapel language, project, and community
 
   - type: textarea
     id: experience
     attributes:
-      label: History and experience with the Chapel language, project, and community (please provide a paragraph or two summarizing your past involvement with Chapel)
+      label: Chapel Experience
     validations:
       required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        Provide a paragraph or two indicating your motivations for applying to the TSC, explaining what you hope to bring to the TSC and what you hope to get out of it
 
   - type: textarea
     id: motivation
     attributes:
-      label: Motivations for applying to the TSC (please provide a paragraph or two explaining what you hope to bring to the TSC and what you hope to get out of it)
+      label: Motivations for Applying
     validations:
       required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        Is there someone on the TSC or in the Chapel community who knows you and is willing to advocate on your behalf?
 
   - type: input
     id: advocate
     attributes:
-      label: Advocate/Sponsor (Optional — Is there someone on the TSC or in the Chapel community who knows you and is willing to advocate on your behalf?)
+      label: Advocate/Sponsor (Optional)
     validations:
       required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        Please disclose anything that could prevent you from meeting the [expectations for TSC members](GOVERNANCE.md) or that you think we ought to know
 
   - type: input
     id: conflicts
     attributes:
-      label: Conflicts of Interest (Please disclose anything that could prevent you from meeting the [expectations for TSC members](GOVERNANCE.md) or that you think we ought to know)
+      label: Conflicts of Interest
     validations:
       required: false
